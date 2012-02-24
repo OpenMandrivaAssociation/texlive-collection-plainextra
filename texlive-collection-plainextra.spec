@@ -5,7 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-collection-plainextra
-Version:	20120223
+Epoch:		1
+Version:	20120224
 Release:	1
 Summary:	Plain TeX supplementary packages
 Group:		Publishing
