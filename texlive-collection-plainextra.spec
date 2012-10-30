@@ -1,4 +1,4 @@
-# revision 23436
+# revision 27541
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-plainextra
 Epoch:		1
-Version:	20120224
+Version:	20121030
 Release:	1
 Summary:	Plain TeX supplementary packages
 Group:		Publishing
@@ -28,6 +28,7 @@ Requires:	texlive-mkpattern
 Requires:	texlive-newsletr
 Requires:	texlive-pitex
 Requires:	texlive-placeins-plain
+Requires:	texlive-plipsum
 Requires:	texlive-plnfss
 Requires:	texlive-present
 Requires:	texlive-resumemac
