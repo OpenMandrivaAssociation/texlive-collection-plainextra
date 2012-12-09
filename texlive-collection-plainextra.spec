@@ -1,4 +1,4 @@
-# revision 27541
+# revision 23436
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-plainextra
 Epoch:		1
-Version:	20121030
+Version:	20120224
 Release:	1
 Summary:	Plain TeX supplementary packages
 Group:		Publishing
@@ -28,7 +28,6 @@ Requires:	texlive-mkpattern
 Requires:	texlive-newsletr
 Requires:	texlive-pitex
 Requires:	texlive-placeins-plain
-Requires:	texlive-plipsum
 Requires:	texlive-plnfss
 Requires:	texlive-present
 Requires:	texlive-resumemac
@@ -50,3 +49,12 @@ Add-on packages and macros that work with plain TeX.
 %build
 
 %install
+
+
+%changelog
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780507
+- Update to latest release.
+- Import texlive-collection-plainextra
+- Import texlive-collection-plainextra
+
