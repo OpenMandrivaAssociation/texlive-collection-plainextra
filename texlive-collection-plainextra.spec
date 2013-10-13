@@ -1,4 +1,4 @@
-# revision 23436
+# revision 31683
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-plainextra
 Epoch:		1
-Version:	20120224
+Version:	20131013
 Release:	1
-Summary:	Plain TeX supplementary packages
+Summary:	Plain TeX packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -16,6 +16,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-plaine
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
 Requires:	texlive-figflow
 Requires:	texlive-fixpdfmag
 Requires:	texlive-font-change
@@ -28,13 +29,16 @@ Requires:	texlive-mkpattern
 Requires:	texlive-newsletr
 Requires:	texlive-pitex
 Requires:	texlive-placeins-plain
+Requires:	texlive-plipsum
 Requires:	texlive-plnfss
+Requires:	texlive-plstmary
 Requires:	texlive-present
 Requires:	texlive-resumemac
+Requires:	texlive-texinfo
 Requires:	texlive-timetable
 Requires:	texlive-treetex
 Requires:	texlive-varisize
-Requires:	texlive-collection-basic
+Requires:	texlive-xii
 
 %description
 Add-on packages and macros that work with plain TeX.
@@ -49,12 +53,3 @@ Add-on packages and macros that work with plain TeX.
 %build
 
 %install
-
-
-%changelog
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780507
-- Update to latest release.
-- Import texlive-collection-plainextra
-- Import texlive-collection-plainextra
-
