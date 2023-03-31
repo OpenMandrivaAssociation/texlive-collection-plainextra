@@ -7,7 +7,7 @@
 Name:		texlive-collection-plainextra
 Epoch:		1
 Version:	20131013
-Release:	10
+Release:	11
 Summary:	Plain TeX packages
 Group:		Publishing
 URL:		http://tug.org/texlive
